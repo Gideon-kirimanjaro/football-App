@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+<<<<<<< HEAD
     <template>
       <v-card>
         <v-toolbar color="cyan" dark flat>
@@ -38,10 +39,15 @@
         </v-tabs-items>
       </v-card>
     </template>
+=======
+    <img alt="Vue logo" src="../assets/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
+>>>>>>> 13ce7fae2295ad5dc97dff2db26c805ac2012dd9
   </div>
 </template>
 
 <script>
+<<<<<<< HEAD
 import Fixtures from "../components/Fixtures/Fixtures";
 import Standings from "../components/Standings/Standings";
 export default {
@@ -58,4 +64,15 @@ export default {
     Standings,
   },
 };
+=======
+// @ is an alias to /src
+import HelloWorld from '@/components/HelloWorld.vue'
+
+export default {
+  name: 'Home',
+  components: {
+    HelloWorld
+  }
+}
+>>>>>>> 13ce7fae2295ad5dc97dff2db26c805ac2012dd9
 </script>
